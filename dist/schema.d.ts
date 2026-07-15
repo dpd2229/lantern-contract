@@ -2,6 +2,13 @@ export declare const SCHEMA_VERSION = 1;
 export type DomainKey = 'see' | 'find' | 'use' | 'sens';
 export type ConstructId = 'recognition' | 'salience-light' | 'distance' | 'complexity' | 'field-preference' | 'tracking' | 'guided-reach' | 'visual-choice' | 'motivation' | 'sensory-channels' | 'divided-attention' | 'fatigue';
 export declare const CONSTRUCT_IDS: readonly ConstructId[];
+export interface Card {
+    cardId: string;
+    title: string;
+    constructId: ConstructId;
+    domain: DomainKey;
+}
+export declare const CARDS: readonly Card[];
 export type Category = 'strength' | 'support' | 'watch';
 export type Flag = 'shines' | 'talk';
 export interface Statement {

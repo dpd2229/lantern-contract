@@ -3,7 +3,7 @@
 // Contains only what both sides must agree on: the export shape, the construct registry,
 // the seed-fragment codec, and the integrity checksum. No design tokens, no templates, no
 // UI — those stay in the apps that consume this package.
-export { SCHEMA_VERSION, CONSTRUCT_IDS, } from './schema.js';
+export { SCHEMA_VERSION, CONSTRUCT_IDS, CARDS, } from './schema.js';
 export { crc32, canonicalize } from './checksum.js';
 export { parseSeed, buildSeed } from './seed.js';
 //# sourceMappingURL=index.js.map
