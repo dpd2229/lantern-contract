@@ -1,0 +1,5 @@
+node_modules/
+*.tsbuildinfo
+
+# workspace: lock is governed by the repo root
+package-lock.json
