@@ -62,7 +62,7 @@ export interface Card {
 }
 
 export const CARDS: readonly Card[] = [
-  { cardId: 'seeing-its-you',        title: "Seeing it's you",   constructId: 'recognition',       domain: 'see'  },
+  { cardId: 'seeing-its-you',        title: 'Seeing it’s you',   constructId: 'recognition',       domain: 'see'  },
   { cardId: 'lights-on',             title: 'Lights on',         constructId: 'salience-light',    domain: 'see'  },
   { cardId: 'spotlight-it',          title: 'Spotlight it',      constructId: 'salience-light',    domain: 'see'  },
   { cardId: 'near-and-close',        title: 'Near and close',    constructId: 'distance',          domain: 'see'  },
